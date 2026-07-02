@@ -161,8 +161,3 @@ npm run dev
 - OCR support for scanned financial statements
 - Cloud deployment with Kubernetes
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
