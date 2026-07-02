@@ -163,18 +163,6 @@ npm run dev
 
 ---
 
-## 👨‍💻 Author
-
-**Gaurav D**
-
-AI Engineer | Generative AI | Agentic AI | GraphRAG | LLM Systems
-
-📧 gauravddinesh@gmail.com
-
-🔗 https://www.linkedin.com/in/gaurav-dinesh/
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
