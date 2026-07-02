@@ -1,0 +1,49 @@
+# ─────────────────────────────────────────────────────────────
+# Credit Analysis AI — Backend Dependencies  (Python 3.10+)
+# Install:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+
+# Config
+python-dotenv==1.0.1
+
+# Azure Document Intelligence  (GA v4.0 — NOT the beta)
+azure-ai-documentintelligence==1.0.0
+azure-core==1.30.2
+aiohttp==3.9.5                 # async transport for Azure SDK
+
+# NVIDIA NIM via OpenAI-compatible API
+openai==1.35.0
+
+# RAG — PageIndex (optional; enable with USE_PAGEINDEX=true)
+pageindex
+
+# HTTP + scraping (stock fallback)
+httpx==0.27.0
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# Market data
+yfinance==0.2.40
+
+# Word report
+python-docx==1.1.2
+
+# Charts (embedded in Word + PDF)
+matplotlib==3.9.0
+numpy==1.26.4
+Pillow==10.3.0
+
+# PDF report (ReportLab)
+reportlab==4.2.0
+
+# Pydantic v2
+pydantic==2.7.1
+
+# Resilience
+tenacity==8.3.0
+aiofiles==23.2.1
